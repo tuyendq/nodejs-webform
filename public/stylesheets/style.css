@@ -20,6 +20,10 @@ form {
   max-width: 37.5rem;
 }
 
+.form-field-invalid .input {
+  border-color: #C00;
+}
+
 a {
   color: #00B7FF;
 }
