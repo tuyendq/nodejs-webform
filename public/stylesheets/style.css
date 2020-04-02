@@ -1,6 +1,23 @@
+html {
+  height: 100%;
+}
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 1rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  font: 1rem "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+form {
+  width: 100%;
+  max-width: 37.5rem;
 }
 
 a {
